@@ -8,8 +8,12 @@
     float: left;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* risoluzione XS extra small devices */
-@media all and (max-width: 767px;) {
+@media screen and (max-width: 767px) {
 
     .col-xs-1 {
         width: calc(100% / 12);
@@ -57,63 +61,12 @@
     .col-xs-12 {
         width: calc((100% / 12) * 12);
     }
+
 }
 
 
-/* risoluzione MD medium devices */
-@media all and (min-width: 768px;) and (max-width: 991px;) {
-    
-    .col-md-1 {
-        width: calc(100% / 12);
-    }
-
-    .col-md-2 {
-        width: calc((100% / 12) * 2);
-    }
-
-    .col-md-3 {
-        width: calc((100% / 12) * 3);
-    }
-
-    .col-md-4 {
-        width: calc((100% / 12) * 4);
-    }
-    .col-md-5 {
-        width: calc((100% / 12) * 5);
-    }
-
-    .col-md-6 {
-        width: calc((100% / 12) * 6);
-    }
-
-    .col-md-7 {
-        width: calc((100% / 12) * 7);
-    }
-
-    .col-md-8 {
-        width: calc((100% / 12) * 8);
-    }
-
-    .col-md-9 {
-        width: calc((100% / 12) * 9);
-    }
-
-    .col-md-10 {
-        width: calc((100% / 12) * 10);
-    }
-
-    .col-md-11 {
-        width: calc((100% / 12) * 11);
-    }
-
-    .col-md-12 {
-        width: calc((100% / 12) * 12);
-    }
-}
-
-
-/* risoluzione LG large devices */
-@media all and (min-width: 992px;) {
+/* risoluzione medium and large devices */
+@media screen and (min-width: 768px) {
 
     .col-lg-1 {
         width: calc(100% / 12);
